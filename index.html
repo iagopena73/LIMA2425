@@ -2,6 +2,7 @@
 <html lang="es">
 	<head>
 		 <meta charset="UTF-8">
+         <link rel="stylesheet" href="index.css">
 
 		<title>League of legends</title>
 
@@ -10,11 +11,21 @@
 
 	</head>
 	<body>
-		<h1> <u>El League of legends</u></h1>
-		<img src="https://displays.riotgames.com/static/content-original-championillustrations-group-slashes-9828cf13cecf88fb9f21ee17afa6874e.jpg" width="750">
-		<!-- los documentos portada.jpg y top.jpg son parte del documento original pero github no me deja ponerlas-->
-		
-		<h2> Base del juego</h2>
+        <div class="barra">
+			<a href="#" class="logo"> <img src="https://brand.riotgames.com/static/a91000434ed683358004b85c95d43ce0/8a20a/lol-logo.png" width="50"></a>
+			<div class="nav-links">
+			  <a href="#Seccion 1">Base</a>
+			  <a href="#Seccion 2">Roles</a>
+			  <a href="#Seccion 3">Campeones</a>
+			  <a href="#Seccion 4">Contenido</a>
+			</div>
+		</div>
+		<h1>El League of legends</h1>
+    
+		<header> 
+		    <img src="https://displays.riotgames.com/static/content-original-championillustrations-group-slashes-9828cf13cecf88fb9f21ee17afa6874e.jpg" width="750">
+        </header>
+		<h2 id="Seccion 1"> Base del juego</h2>
 		<p> Es un juego de estilo MOBA que deriva del famoso juego DOTA, que a su vez en un mood del juego Warcraft III. 
 			El juego consiste en partidas de 5 jugadores contra 5 jugadores (equipo rojo contra equipo azul) con la finalidad de romper la estructura principal del equipo rival, llamada nexo. Cada jugador elige un campeón para jugar la partida.
 			Para ello, veremos el como se hace y las posibles maneras de jugar.
@@ -23,30 +34,29 @@
 			
 			El juego consta de un mapa dividido en 3 carriles y las zonas entre los carriles. Comunmente, la línea superior está ocupada por el jugador al que se le llama toplaner. La línea del medio (línea más corta debido al diseño del mapa) se llama midlaner. La línea de abajo donde tiene la peculiaridad de que hay dos jugadores del mismo equipo se llama botlane, donde juega el adc (ADCarry) y el Support. El mapa tiene dos zonas entre las lineas llamada jungla, donde juega el quinto integrante del equipo, llamado Jungler.
 			<br/>
-			<table border="15" style="text-align:center"> 
+			<table bordSer="15" style="text-align:center"> 
 				<tr> 
 					<td> Toplaner </td>
 					<td><img src="https://tiermaker.com/images/templates/league-of-legends-top-lane-tier-list-135-15666402/156664021679014612.jpg" width="100"> </td>
 					<td rowspan="5"> <img src="Imagenes/grieta.jpg" width="630"></td> </td>
-					</tr>
-					<tr>
+				</tr>
+				<tr>
 					<td> Jungler </td>
 					<td> <img src="Imagenes/jg.jpg" width="100"></td>
-					</tr>
-					<tr>
+				</tr>
+				<tr>
 					<td> Midlaner </td>
 					<td><img src="Imagenes/mid.jpg" width="100"> </td>
-					</tr>
-					<tr>
+				</tr>
+				<tr>
 					<td> ADC </td>
 					<td> <img src="Imagenes/adc.jpg" width="100"> </td>
-					</tr>
-					<tr>
+				</tr>
+				<tr>
 					<td> Support </td>
 					<td > <img src="Imagenes/supp.jpg" width="100"></td>
-					</tr>
-					</tr>
-					</table>
+				</tr>
+			</table>
 			
 			
 		</p>
@@ -56,12 +66,12 @@
 			<ol title=" Maneras de destruir el nexo ">
 				<li> Tirando primero las torres y después el nexo (no hace falta tirar todas las torres, con tirar las de una sola línea para llegar al nexo basta) </li>
 				<li> Fortfeit, lo que significa que uno de los equipos acepta una votación de rendirse </li>
-			  </ol>
-			<hr/>
+			</ol>
 		</p>
+        <hr/>
 		
 
-        <h2><em>Funciones de cada rol</em></h2>
+        <h2 id="Seccion 2"><em>Funciones de cada rol</em></h2>
 
        
         <p>
@@ -79,7 +89,7 @@
 		 </p>
 	 
 
-		 <h2> <a href="#jg">Jungla</a> </h2>
+		 <h2> <a>Jungla</a> </h2>
 		 <p>
 			Como es mi posición y la más influyente, voy a explicar como funciona la jungla.
 			La jungla tiene funciones muy diferentes ya que su forma de conseguir oro es diferente a los de las líneas, ya que en la jungla no hya minions, solo hay mounstros que aparecen cada 2 minutos y medio. 
@@ -92,7 +102,7 @@
 
 		 </p>
 
-		 <h3><strong>Los campeones</strong></h3>
+		 <h3 id="Seccion 3"><strong>Los campeones</strong></h3>
 		 <p>El lol consta de mas de 170 personajes jugables, todos con habilidades, pasivas y jugabilidad diferente, lo que hace que cada partida sea diferente.
 			Cada cierto tiempo meten personajes nuevos al juego o modifican alguno ya existente para adaptarlo a la jugabilidad actual, haciendo que el juego tenga contenido actualizado semanalmente.
 			Esto es muy importante ya que los campeones pueden ser más fuertes o más débiles que otros por un mal balanceo y hace que los winrates de los personajes caigan o se disparen según como este el campeón en ese momento.
@@ -100,8 +110,9 @@
 			<hr/>
 		 </p>
 
-		 <h2>Contenido audiovisual</h2>
-		 <p> A parte del juego, riot (empresa del lol) tiene otros aspectos artísticos que complementan al juego muy bien, como una serie de animación muy conocida o muchas canciones utilizando a los personajes como si fueran los cantantes, interpretados por artistas muy conocidos al nivel de Lilnas o Madison Beer.
+		
+		 <div class="Contenido"> <h2 id="Seccion 4">Contenido audiovisual</h2>
+			 A parte del juego, riot (empresa del lol) tiene otros aspectos artísticos que complementan al juego muy bien, como una serie de animación muy conocida o muchas canciones utilizando a los personajes como si fueran los cantantes, interpretados por artistas muy conocidos al nivel de Lilnas o Madison Beer.
 			Esta es una de las canciones más conocidas, hecha por la celebración del mundial del lol de hace ya más de 10 años, canción hecha por Imagine Dragons.
 			<iframe width="50%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/256184630&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/imaginedragons" title="Imagine Dragons" target="_blank" style="color: #cccccc; text-decoration: none;">Imagine Dragons</a> · <a href="https://soundcloud.com/imaginedragons/warriors-1" title="Warriors" target="_blank" style="color: #cccccc; text-decoration: none;">Warriors</a></div>
 			Tambien tienen muchas animaciones con los personajes del juego para anunciar una nueva temporada del juego, donde cambian muchos aspectos del juego, aportando frescura para los jugadores que ya llevan muchos años disfrutando de uno de los juegos más jugados en la última década.
@@ -115,11 +126,11 @@
 				  allow="web-share">
 				</iframe>
 			  </div>
-		 </p>
-		<h3> Os dejo un pequeño <a href="formulario.html">formulario</a> para saber de que quereis que hable en la próxima actualización de la página.</h3>
+			</div>
+		<h3> Os dejo un pequeño formulario <a href="formulario.html"><i class="material-icons">description</i></a>  para saber de que quereis que hable en la próxima actualización de la página.</h3>
 
 
-
+    
 		
 	</body>
 </html>
